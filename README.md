@@ -9,3 +9,5 @@ Visualmente el proyecto athanor es como un mapa espacial dónde ciertas variable
 5-El área (espacio se expande) una unidad al día.
 6-La distancia de el cuerpo y el cuerpo sobre el que orbita es la frecuencia de ejecuciónes, es decir que si es algo planeado para hacerse cada x días y no se hace entonces cada día que no se haga se aleja empezando en 1unidad x=x+1, el primer día 1unidad, el segundo 3unidades, el tercer día 6 unidades. 
 7-El tamaño esta determinado por la importancia contextual, es decir una unión de todos los objetivoses son en contexto, y que tanto ayuda o perjudica ese proyecto al contexto es lo que determina el tamaño
+
+Me quedé en definir el tamaño de u y todo en base a ello
