@@ -1,0 +1,35 @@
+.AppsMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.expanded {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(-45deg, #333 50%, transparent 50%);
+}
+
+.AppIcon {
+    background-color: rgb(207, 181, 107);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+@media (max-width: 777px) {
+    .AppIcon {
+        width: 50px;
+        height: 50px;
+    }
+}

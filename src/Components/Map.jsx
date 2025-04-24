@@ -1,5 +1,6 @@
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 import { useEffect, useState } from 'react';
+import AppsMenu from './Apps/AppsMenu/AppsMenu';
 
 export default function Map({ children, u }) {
     const [minScale, setMinScale] = useState(1);
@@ -60,6 +61,7 @@ export default function Map({ children, u }) {
                     </TransformComponent>
                 )}
             </TransformWrapper>
+            <AppsMenu />
         </div>
     );
 }
